@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LUBRICOL</title>
+    <link rel="stylesheet" href="./LUBRICOL_files/stylo.css">
+    <link rel="stylesheet" href="./LUBRICOL_files/animate.css">
+    <link rel="stylesheet" href="./LUBRICOL_files/menu.css">
+    <link rel="stylesheet" href="./LUBRICOL_files/responsive.css">
+    <link rel="stylesheet" href="./LUBRICOL_files/fontello.css">
+    <link rel="stylesheet" href="./LUBRICOL_files/java.js">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img class="logo" src="./LUBRICOL_files/logo.png" alt="">
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="http://127.0.0.1:5500/#inicio">INICIO</a>
+                <a href="http://127.0.0.1:5500/#producto">PRODUCTOS</a>
+                <a href="http://127.0.0.1:5500/#conocenos">CONOCENOS</a>
+                <a href="http://127.0.0.1:5500/contacto">CONTACTO</a>
+            </nav>
+        </div>
+    </header>
+    <section id="inicio" class="banner">
+        <div class="banner-contet">
+                <div class="pru">
+                    <div><h2>BIENVENIDOS A LUBRICOL</h2>
+                        <p>Es más que solo aceites. Es Tecnología e innovación líquida.</p>
+                        <a href="http://127.0.0.1:5500/#deco"><img class="animated fadeInUp delay-1s" id="open" src="./LUBRICOL_files/open.png" alt=""></a>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <div id="deco" class="decoracion"></div>
+    <div class="animated  fadeInUp delay-3s">
+        <section id="noticia" class="noticia">
+            <div class="not">
+                <h3>EL HOGAR DE LA TECNOLOGÍA E INNOVACIÓN</h3>
+                <p>LUBRICOL proporciona todos los aceites y lubricantes que necesita el mundo, para cada conductor, cada aventurero y cada industria.</p>
+            </div>
+            <div class="not">
+                <h3>¿QUE NOS IMPULSA?</h3>
+                <p>Es de humanos querer una vida mejor , durante más de 3 años LUBRICOL ha estado desarrollando productos de combustible de calidad para cuidar y ayudar a las personas donde necesiten ir.</p>
+                <p>Trabajamos para mejorar la calidad de vida de todos nuestros trabajadores ya que ellos son parte fundamental de nuestra empresa.</p>
+                <p>Trabajamos continuamente para mejorar el desempeño ambiental y que nuestros aceites y lubricantes retomen la cadena productiva y así no perjudicar al medio ambiente.</p>
+            </div>
+        </section>
+    </div>
+    <section id="distribuidor" class="animated  bounceIn  delay-4s">
+        <a href="http://127.0.0.1:5500/">SE DISTRIBUIDOR AUTORIZADO</a>
+    </section>
+    <section id="producto" class="producto">
+        <div class="img">
+            <img id="imagen" src="./LUBRICOL_files/banner.jpg" alt="">
+        </div>
+            <div class="card" id="card">
+                <div class="titulo">
+                    <h3>MOTO</h3>
+                    <h3>CARRO</h3>
+                </div>
+                <section class="botones">
+                    <div class="moto">
+                        <a id="uno">20W50</a>
+                        <a id="dos">20W60</a>
+                        <a id="tres">2 TIEMPOS</a>
+                        <a id="cutro">2T NAUTICO</a>
+                    </div>
+                    <div class="carro"> 
+                        <a id="uno">20W50</a>
+                        <a id="dos">20W60</a>
+                        <a id="tres">2 TIEMPOS</a>
+                        <a id="cutro">2T NAUTICO</a> 
+                    </div>
+                </section>
+            </div>
+        <script src="./LUBRICOL_files/java.js"></script>
+    </section>
+    <section id="conocenos" class="conocenos">
+        <div class="text">
+            <h3>MISIÓN</h3>
+            <p>Somos uan empresa dedicada a la produccion, distribucion y comercializacion de aceites y lubricantes para motocicletas y automóviles, satisfaciendo la necesidad de nuestros clientes con productos de calidad y excelente precio. </p>
+        </div>
+        <div class="text">
+            <h3>VISIÓN</h3>
+            <p>Para el año 2025, ser reconocida a nivel nacional como una de las mejores empresas productoras de lubricantes en colombia, protegiendo el medio ambiente con el desarrollo de técnicas que permitan retornar el aceite usado a la cadena productiva y brindando un exelente servicio a nuestros clientes a través de nuestra amplia red de distribuciñon.</p>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div>
+
+        </div>
+    </section>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
